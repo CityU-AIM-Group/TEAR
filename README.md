@@ -45,7 +45,7 @@ python Train_TEAR.py
 
 The strategy AdaPL can also bring performance improvements on many natural image datasets, including CIFAR-10, CIFAR-100, SVHN, etc, especially in low label regimes. To have a try, you simply have to add the dataloaders in ```./datasets/cifar.py```, and turn on the switch of AdaPL: ```--adapl=True```. Enjoy playing on your own datasets :-D
 
-## Citation:
+## Citation
 ```
 @inproceedings{yang2022d2,
   title={Semi-Supervised Medical Image Classification with Temporal Knowledge-Aware Regularization},
